@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rJLfOgkUvZ/qsVQIkcuR2rMinweNx1OgDCCRZ2cGvmk=",
+  "Source": "application_noteapi",
+  "BasePath": "_content/application_noteapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
