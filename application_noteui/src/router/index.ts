@@ -29,7 +29,7 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((to, _from, next) => {
   const session = useSessionStore(); 
   const isLoggedIn = !!session.USER_NAME;
 

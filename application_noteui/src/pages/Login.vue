@@ -38,7 +38,7 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, ref } from 'vue';
+import { reactive} from 'vue';
 import router from '../router';
 import $api from '../utils/api';
 import $msg from '../utils/helper';
@@ -61,7 +61,7 @@ const handleSubmit = () => {
       $session.USER_NAME = data[0].USER_NAME;
      router.push('/notes');
     }
-}, (err) => {
+}, () => {
   $msg.error("Login Faild");
 });
  

@@ -185,7 +185,7 @@ const Edit = () =>{
 }
 const savedata = () => {
  $msg.confirm('Do you want to save?', () => {
-  $api.get("http://localhost:5094/api/user/save", dto, (data) =>{
+  $api.get("http://localhost:5094/api/user/save", dto, () =>{
     $msg.success("Save Success", () => {
        viewdata();
         $view.value = "VIEW";

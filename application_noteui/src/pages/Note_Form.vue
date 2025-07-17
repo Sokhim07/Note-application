@@ -202,7 +202,7 @@ const verifyData =() => {
 const savedata = () => {
   if(!verifyData()) return;
  $msg.confirm('Do you want to save?', () => {
-  $api.get("http://localhost:5094/api/noted/save", dto, (data) =>{
+  $api.get("http://localhost:5094/api/noted/save", dto, () =>{
     $msg.success("Save Success", () => {
        viewdata();
         $view.value = "VIEW";
@@ -215,7 +215,7 @@ const savedata = () => {
 const deletedata =(x:list) =>{
   dto.NT_ID = x.NT_ID;
   $msg.confirm('Are you sure to delete data?', () =>{
-    $api.get("http://localhost:5094/api/noted/delete", dto, (data) =>{
+    $api.get("http://localhost:5094/api/noted/delete", dto, () =>{
     $msg.success("Delete Success",() =>{
       viewdata();
     })
