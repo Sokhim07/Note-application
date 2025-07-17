@@ -1,8 +1,13 @@
-Helle
-In this project can't hosting in githup because need to host api and ui.
-The step of install:
-- Install or clone the project
-- Restor the file database NOTEDB in your sql server 
-- Go to the file application_noteapi => go to file appsettings.json to change you connection =>  open Terminal => dotnet watch
-- Go to the file application_noteui => open Terminal => npm run dev => click the link localhost go to broswer.
-- In this you can see the script in SCRIPT_NOTE
+Helle,
+This project cannot be hosted directly on GitHub Pages because it requires both the API and the UI to run locally.
+Installation Steps:
+
+- Clone or download the project.
+
+- Restore the NOTEDB database file in your SQL Server.
+
+- Navigate to the application_noteapi folder → open appsettings.json and update the connection string → open the terminal and run: dotnet watch
+
+- Navigate to the application_noteui folder → open the terminal and run: npm run dev, Then open the localhost link in your browser.
+
+- You can find the script in the SCRIPT_NOTE file.
