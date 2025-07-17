@@ -11,3 +11,6 @@ Installation Steps:
 - Navigate to the application_noteui folder → open the terminal and run: npm run dev, Then open the localhost link in your browser.
 
 - You can find the script in the SCRIPT_NOTE file.
+
+- User Name: Admin
+- Password: 1234
