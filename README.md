@@ -5,3 +5,4 @@ The step of install:
 - Restor the file database NOTEDB in your sql server 
 - Go to the file application_noteapi => go to file appsettings.json to change you connection =>  open Terminal => dotnet watch
 - Go to the file application_noteui => open Terminal => npm run dev => click the link localhost go to broswer.
+- In this you can see the script in SCRIPT_NOTE
